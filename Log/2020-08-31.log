@@ -1,0 +1,321 @@
+2020-08-31 09:53:00,633 - root - INFO - ----------dgj
+2020-08-31 09:53:00,635 - root - INFO - 执行步骤我的直属商户列表
+2020-08-31 09:53:01,226 - root - INFO - 出现异常Traceback (most recent call last):
+  File "D:\python\Interface\TestScripts\TestSendMail.py", line 30, in TestSendMailAndCreateContacts
+    result = CreateContacts.dataDriverFun(stepSheetObj)
+  File "D:\python\Interface\TestScripts\CreateContacts.py", line 63, in dataDriverFun
+    raise e
+  File "D:\python\Interface\TestScripts\CreateContacts.py", line 44, in dataDriverFun
+    result = handle_result_json(respone1.text(),eresult)
+TypeError: 'str' object is not callable
+
+2020-08-31 09:56:59,149 - root - INFO - ----------dgj
+2020-08-31 09:56:59,154 - root - INFO - 执行步骤我的直属商户列表
+2020-08-31 09:56:59,232 - root - INFO - 执行步骤全部商户信息
+2020-08-31 09:57:15,308 - root - INFO - 共2条用例，2条需要被执行，成功执行0条
+2020-08-31 09:57:15,309 - root - INFO - 用例店管家执行失败
+2020-08-31 09:57:15,357 - root - INFO - 共1条用例，1条需要被执行，成功执行0条
+2020-08-31 09:59:57,884 - root - INFO - ----------dgj
+2020-08-31 09:59:57,886 - root - INFO - 执行步骤我的直属商户列表
+2020-08-31 09:59:57,936 - root - INFO - 出现异常Traceback (most recent call last):
+  File "D:\python\Interface\TestScripts\WriteTestResult.py", line 22, in writeTestResult
+    style=colorDict[testResult])
+  File "D:\python\Interface\Common\ParseExcel.py", line 126, in writeCell
+    raise e
+  File "D:\python\Interface\Common\ParseExcel.py", line 124, in writeCell
+    self.workbook.save(self.excelFile)
+  File "D:\Program Files\Python\Python37\lib\site-packages\openpyxl\workbook\workbook.py", line 392, in save
+    save_workbook(self, filename)
+  File "D:\Program Files\Python\Python37\lib\site-packages\openpyxl\writer\excel.py", line 291, in save_workbook
+    archive = ZipFile(filename, 'w', ZIP_DEFLATED, allowZip64=True)
+  File "D:\Program Files\Python\Python37\lib\zipfile.py", line 1207, in __init__
+    self.fp = io.open(file, filemode)
+PermissionError: [Errno 13] Permission denied: 'D:\\python\\Interface\\Data\\cas.xlsx'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\python\Interface\TestScripts\TestSendMail.py", line 30, in TestSendMailAndCreateContacts
+    result = CreateContacts.dataDriverFun(stepSheetObj)
+  File "D:\python\Interface\TestScripts\CreateContacts.py", line 65, in dataDriverFun
+    raise e
+  File "D:\python\Interface\TestScripts\CreateContacts.py", line 57, in dataDriverFun
+    testResult="faild")
+  File "D:\python\Interface\TestScripts\WriteTestResult.py", line 42, in writeTestResult
+    log.error(u'写excel时发生异常' + traceback.print_exc())
+TypeError: can only concatenate str (not "NoneType") to str
+
+2020-08-31 10:00:07,944 - root - INFO - ----------dgj
+2020-08-31 10:00:07,945 - root - INFO - 执行步骤我的直属商户列表
+2020-08-31 10:00:08,018 - root - INFO - 执行步骤全部商户信息
+2020-08-31 10:00:08,359 - root - INFO - 共2条用例，2条需要被执行，成功执行0条
+2020-08-31 10:00:08,361 - root - INFO - 用例店管家执行失败
+2020-08-31 10:00:08,404 - root - INFO - 共1条用例，1条需要被执行，成功执行0条
+2020-08-31 10:40:59,254 - root - INFO - ----------dgj
+2020-08-31 10:40:59,256 - root - INFO - 执行步骤我的直属商户列表
+2020-08-31 10:40:59,341 - root - INFO - 执行步骤全部商户信息
+2020-08-31 10:41:00,101 - root - INFO - 共2条用例，2条需要被执行，成功执行0条
+2020-08-31 10:41:00,102 - root - INFO - 用例店管家执行失败
+2020-08-31 10:41:00,142 - root - INFO - 共1条用例，1条需要被执行，成功执行0条
+2020-08-31 10:41:30,250 - root - INFO - ----------dgj
+2020-08-31 10:41:30,251 - root - INFO - 执行步骤我的直属商户列表
+2020-08-31 10:41:30,357 - root - INFO - 执行步骤全部商户信息
+2020-08-31 10:41:30,739 - root - INFO - 共2条用例，2条需要被执行，成功执行0条
+2020-08-31 10:41:30,740 - root - INFO - 用例店管家执行失败
+2020-08-31 10:41:30,798 - root - INFO - 共1条用例，1条需要被执行，成功执行0条
+2020-08-31 10:42:31,115 - root - INFO - ----------dgj
+2020-08-31 10:42:31,117 - root - INFO - 执行步骤我的直属商户列表
+2020-08-31 10:42:31,146 - root - INFO - 出现异常Traceback (most recent call last):
+  File "D:\python\Interface\TestScripts\TestSendMail.py", line 30, in TestSendMailAndCreateContacts
+    result = CreateContacts.dataDriverFun(stepSheetObj)
+  File "D:\python\Interface\TestScripts\CreateContacts.py", line 65, in dataDriverFun
+    raise e
+  File "D:\python\Interface\TestScripts\CreateContacts.py", line 45, in dataDriverFun
+    result = handle_result_json(respone1.json(),json.loads(eresult))
+  File "D:\Program Files\Python\Python37\lib\json\__init__.py", line 348, in loads
+    return _default_decoder.decode(s)
+  File "D:\Program Files\Python\Python37\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "D:\Program Files\Python\Python37\lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+
+2020-08-31 10:44:56,890 - root - INFO - ----------dgj
+2020-08-31 10:44:56,892 - root - INFO - 执行步骤我的直属商户列表
+2020-08-31 10:44:56,927 - root - INFO - 出现异常Traceback (most recent call last):
+  File "D:\python\Interface\TestScripts\TestSendMail.py", line 30, in TestSendMailAndCreateContacts
+    result = CreateContacts.dataDriverFun(stepSheetObj)
+  File "D:\python\Interface\TestScripts\CreateContacts.py", line 65, in dataDriverFun
+    raise e
+  File "D:\python\Interface\TestScripts\CreateContacts.py", line 44, in dataDriverFun
+    print(json.loads(eresult))
+  File "D:\Program Files\Python\Python37\lib\json\__init__.py", line 348, in loads
+    return _default_decoder.decode(s)
+  File "D:\Program Files\Python\Python37\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "D:\Program Files\Python\Python37\lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+
+2020-08-31 10:45:23,495 - root - INFO - ----------dgj
+2020-08-31 10:45:23,497 - root - INFO - 执行步骤我的直属商户列表
+2020-08-31 10:45:23,532 - root - INFO - 出现异常Traceback (most recent call last):
+  File "D:\python\Interface\TestScripts\TestSendMail.py", line 30, in TestSendMailAndCreateContacts
+    result = CreateContacts.dataDriverFun(stepSheetObj)
+  File "D:\python\Interface\TestScripts\CreateContacts.py", line 65, in dataDriverFun
+    raise e
+  File "D:\python\Interface\TestScripts\CreateContacts.py", line 44, in dataDriverFun
+    print(json.loads(eresult))
+  File "D:\Program Files\Python\Python37\lib\json\__init__.py", line 348, in loads
+    return _default_decoder.decode(s)
+  File "D:\Program Files\Python\Python37\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "D:\Program Files\Python\Python37\lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+
+2020-08-31 10:46:53,614 - root - INFO - ----------dgj
+2020-08-31 10:46:53,616 - root - INFO - 执行步骤我的直属商户列表
+2020-08-31 10:46:53,652 - root - INFO - 出现异常Traceback (most recent call last):
+  File "D:\python\Interface\TestScripts\TestSendMail.py", line 30, in TestSendMailAndCreateContacts
+    result = CreateContacts.dataDriverFun(stepSheetObj)
+  File "D:\python\Interface\TestScripts\CreateContacts.py", line 65, in dataDriverFun
+    raise e
+  File "D:\python\Interface\TestScripts\CreateContacts.py", line 44, in dataDriverFun
+    print(type(json.loads(eresult)))
+  File "D:\Program Files\Python\Python37\lib\json\__init__.py", line 348, in loads
+    return _default_decoder.decode(s)
+  File "D:\Program Files\Python\Python37\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "D:\Program Files\Python\Python37\lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+
+2020-08-31 10:47:52,377 - root - INFO - ----------dgj
+2020-08-31 10:47:52,379 - root - INFO - 执行步骤我的直属商户列表
+2020-08-31 10:47:52,443 - root - INFO - 执行步骤全部商户信息
+2020-08-31 10:47:52,815 - root - INFO - 共2条用例，2条需要被执行，成功执行0条
+2020-08-31 10:47:52,816 - root - INFO - 用例店管家执行失败
+2020-08-31 10:47:52,856 - root - INFO - 共1条用例，1条需要被执行，成功执行0条
+2020-08-31 10:51:52,115 - root - INFO - ----------dgj
+2020-08-31 10:51:52,117 - root - INFO - 执行步骤我的直属商户列表
+2020-08-31 10:51:52,222 - root - INFO - 执行步骤全部商户信息
+2020-08-31 10:51:52,633 - root - INFO - 共2条用例，2条需要被执行，成功执行0条
+2020-08-31 10:51:52,634 - root - INFO - 用例店管家执行失败
+2020-08-31 10:51:52,674 - root - INFO - 共1条用例，1条需要被执行，成功执行0条
+2020-08-31 10:52:29,963 - root - INFO - ----------dgj
+2020-08-31 10:52:29,964 - root - INFO - 执行步骤我的直属商户列表
+2020-08-31 10:52:30,033 - root - INFO - 执行步骤全部商户信息
+2020-08-31 10:52:30,472 - root - INFO - 共2条用例，2条需要被执行，成功执行0条
+2020-08-31 10:52:30,473 - root - INFO - 用例店管家执行失败
+2020-08-31 10:52:30,513 - root - INFO - 共1条用例，1条需要被执行，成功执行0条
+2020-08-31 10:52:42,650 - root - INFO - ----------dgj
+2020-08-31 10:52:42,652 - root - INFO - 执行步骤我的直属商户列表
+2020-08-31 10:52:42,723 - root - INFO - 执行步骤全部商户信息
+2020-08-31 10:52:43,022 - root - INFO - 出现异常Traceback (most recent call last):
+  File "D:\python\Interface\TestScripts\TestSendMail.py", line 30, in TestSendMailAndCreateContacts
+    result = CreateContacts.dataDriverFun(stepSheetObj)
+  File "D:\python\Interface\TestScripts\CreateContacts.py", line 65, in dataDriverFun
+    raise e
+  File "D:\python\Interface\TestScripts\CreateContacts.py", line 44, in dataDriverFun
+    print(type(json.loads(eresult)))
+  File "D:\Program Files\Python\Python37\lib\json\__init__.py", line 348, in loads
+    return _default_decoder.decode(s)
+  File "D:\Program Files\Python\Python37\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "D:\Program Files\Python\Python37\lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+
+2020-08-31 10:53:35,930 - root - INFO - ----------dgj
+2020-08-31 10:53:35,931 - root - INFO - 执行步骤我的直属商户列表
+2020-08-31 10:53:36,018 - root - INFO - 执行步骤全部商户信息
+2020-08-31 10:53:36,270 - root - INFO - 共2条用例，2条需要被执行，成功执行0条
+2020-08-31 10:53:36,271 - root - INFO - 用例店管家执行失败
+2020-08-31 10:53:36,312 - root - INFO - 共1条用例，1条需要被执行，成功执行0条
+2020-08-31 10:54:19,230 - root - INFO - ----------dgj
+2020-08-31 10:54:19,232 - root - INFO - 执行步骤我的直属商户列表
+2020-08-31 10:54:19,320 - root - INFO - 出现异常Traceback (most recent call last):
+  File "D:\python\Interface\TestScripts\TestSendMail.py", line 30, in TestSendMailAndCreateContacts
+    result = CreateContacts.dataDriverFun(stepSheetObj)
+  File "D:\python\Interface\TestScripts\CreateContacts.py", line 65, in dataDriverFun
+    raise e
+  File "D:\python\Interface\TestScripts\CreateContacts.py", line 44, in dataDriverFun
+    print(type(json.loads(eresult)))
+  File "D:\Program Files\Python\Python37\lib\json\__init__.py", line 348, in loads
+    return _default_decoder.decode(s)
+  File "D:\Program Files\Python\Python37\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "D:\Program Files\Python\Python37\lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+
+2020-08-31 10:55:10,861 - root - INFO - ----------dgj
+2020-08-31 10:55:10,864 - root - INFO - 执行步骤我的直属商户列表
+2020-08-31 10:55:10,947 - root - INFO - 执行步骤全部商户信息
+2020-08-31 10:55:11,335 - root - INFO - 共2条用例，2条需要被执行，成功执行0条
+2020-08-31 10:55:11,336 - root - INFO - 用例店管家执行失败
+2020-08-31 10:55:11,401 - root - INFO - 共1条用例，1条需要被执行，成功执行0条
+2020-08-31 10:56:52,095 - root - INFO - ----------dgj
+2020-08-31 10:56:52,097 - root - INFO - 执行步骤我的直属商户列表
+2020-08-31 10:56:52,236 - root - INFO - 执行步骤全部商户信息
+2020-08-31 10:56:52,638 - root - INFO - 共2条用例，2条需要被执行，成功执行0条
+2020-08-31 10:56:52,638 - root - INFO - 用例店管家执行失败
+2020-08-31 10:56:52,681 - root - INFO - 共1条用例，1条需要被执行，成功执行0条
+2020-08-31 11:03:22,582 - root - INFO - ----------dgj
+2020-08-31 11:03:22,584 - root - INFO - 执行步骤我的直属商户列表
+2020-08-31 11:03:22,657 - root - INFO - 执行步骤全部商户信息
+2020-08-31 11:03:23,371 - root - INFO - 共2条用例，2条需要被执行，成功执行0条
+2020-08-31 11:03:23,372 - root - INFO - 用例店管家执行失败
+2020-08-31 11:03:23,413 - root - INFO - 共1条用例，1条需要被执行，成功执行0条
+2020-08-31 11:04:42,092 - root - INFO - ----------dgj
+2020-08-31 11:04:42,094 - root - INFO - 执行步骤我的直属商户列表
+2020-08-31 11:04:42,170 - root - INFO - 共2条用例，1条需要被执行，成功执行0条
+2020-08-31 11:04:42,171 - root - INFO - 用例店管家执行失败
+2020-08-31 11:04:42,219 - root - INFO - 共1条用例，1条需要被执行，成功执行0条
+2020-08-31 15:11:02,259 - root - INFO - ----------dgj
+2020-08-31 15:11:02,262 - root - INFO - 执行步骤我的直属商户列表
+2020-08-31 15:11:02,353 - root - INFO - 出现异常Traceback (most recent call last):
+  File "D:\python\Interface\TestScripts\WriteTestResult.py", line 22, in writeTestResult
+    style=colorDict[testResult])
+  File "D:\python\Interface\Common\ParseExcel.py", line 126, in writeCell
+    raise e
+  File "D:\python\Interface\Common\ParseExcel.py", line 124, in writeCell
+    self.workbook.save(self.excelFile)
+  File "D:\Program Files\Python\Python37\lib\site-packages\openpyxl\workbook\workbook.py", line 392, in save
+    save_workbook(self, filename)
+  File "D:\Program Files\Python\Python37\lib\site-packages\openpyxl\writer\excel.py", line 291, in save_workbook
+    archive = ZipFile(filename, 'w', ZIP_DEFLATED, allowZip64=True)
+  File "D:\Program Files\Python\Python37\lib\zipfile.py", line 1207, in __init__
+    self.fp = io.open(file, filemode)
+PermissionError: [Errno 13] Permission denied: 'D:\\python\\Interface\\Data\\cas.xlsx'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\python\Interface\TestScripts\TestSendMail.py", line 30, in TestSendMailAndCreateContacts
+    result = CreateContacts.dataDriverFun(stepSheetObj)
+  File "D:\python\Interface\TestScripts\CreateContacts.py", line 77, in dataDriverFun
+    raise e
+  File "D:\python\Interface\TestScripts\CreateContacts.py", line 51, in dataDriverFun
+    testResult="pass")
+  File "D:\python\Interface\TestScripts\WriteTestResult.py", line 42, in writeTestResult
+    log.error(u'写excel时发生异常' + traceback.print_exc())
+TypeError: can only concatenate str (not "NoneType") to str
+
+2020-08-31 15:11:12,108 - root - INFO - ----------dgj
+2020-08-31 15:11:12,110 - root - INFO - 执行步骤我的直属商户列表
+2020-08-31 15:11:12,205 - root - INFO - 用例店管家执行成功
+2020-08-31 15:11:12,250 - root - INFO - 共1条用例，1条需要被执行，成功执行1条
+2020-08-31 15:27:50,509 - root - INFO - ----------dgj
+2020-08-31 15:27:50,573 - root - INFO - 执行步骤我的直属商户列表
+2020-08-31 15:27:50,619 - root - INFO - 出现异常Traceback (most recent call last):
+  File "D:\python\Interface\TestScripts\WriteTestResult.py", line 22, in writeTestResult
+    style=colorDict[testResult])
+  File "D:\python\Interface\Common\ParseExcel.py", line 126, in writeCell
+    raise e
+  File "D:\python\Interface\Common\ParseExcel.py", line 124, in writeCell
+    self.workbook.save(self.excelFile)
+  File "D:\Program Files\Python\Python37\lib\site-packages\openpyxl\workbook\workbook.py", line 392, in save
+    save_workbook(self, filename)
+  File "D:\Program Files\Python\Python37\lib\site-packages\openpyxl\writer\excel.py", line 291, in save_workbook
+    archive = ZipFile(filename, 'w', ZIP_DEFLATED, allowZip64=True)
+  File "D:\Program Files\Python\Python37\lib\zipfile.py", line 1207, in __init__
+    self.fp = io.open(file, filemode)
+PermissionError: [Errno 13] Permission denied: 'D:\\python\\Interface\\Data\\cas.xlsx'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\python\Interface\TestScripts\TestSendMail.py", line 31, in TestSendMailAndCreateContacts
+    result = CreateContacts.dataDriverFun(stepSheetObj,loginname)
+  File "D:\python\Interface\TestScripts\CreateContacts.py", line 64, in dataDriverFun
+    raise e
+  File "D:\python\Interface\TestScripts\CreateContacts.py", line 49, in dataDriverFun
+    testResult="pass")
+  File "D:\python\Interface\TestScripts\WriteTestResult.py", line 42, in writeTestResult
+    log.error(u'写excel时发生异常' + traceback.print_exc())
+TypeError: can only concatenate str (not "NoneType") to str
+
+2020-08-31 15:28:02,443 - root - INFO - ----------dgj
+2020-08-31 15:28:02,514 - root - INFO - 执行步骤我的直属商户列表
+2020-08-31 15:28:02,596 - root - INFO - 用例店管家执行成功
+2020-08-31 15:28:02,643 - root - INFO - 共1条用例，1条需要被执行，成功执行1条
+2020-08-31 15:53:40,378 - root - INFO - ----------dgj
+2020-08-31 15:53:40,442 - root - INFO - 执行步骤我的直属商户列表
+2020-08-31 15:53:40,543 - root - INFO - 用例店管家执行成功
+2020-08-31 15:53:40,591 - root - INFO - 共1条用例，1条需要被执行，成功执行1条
+2020-08-31 15:54:18,398 - root - INFO - ----------dgj
+2020-08-31 15:54:18,456 - root - INFO - 执行步骤我的直属商户列表
+2020-08-31 15:54:18,547 - root - INFO - 执行步骤全部商户信息
+2020-08-31 15:54:19,088 - root - INFO - 用例店管家执行失败
+2020-08-31 15:54:19,132 - root - INFO - 共1条用例，1条需要被执行，成功执行0条
+2020-08-31 16:03:03,274 - root - INFO - ----------dgj
+2020-08-31 16:03:03,324 - root - INFO - 执行步骤我的直属商户列表
+2020-08-31 16:03:03,425 - root - INFO - 执行步骤通过我的直属商户列表
+2020-08-31 16:03:03,428 - root - INFO - 执行步骤全部商户信息
+2020-08-31 16:03:03,844 - root - INFO - 执行步骤失败全部商户信息
+2020-08-31 16:03:03,844 - root - INFO - 用例店管家执行失败
+2020-08-31 16:03:03,894 - root - INFO - 共1条用例，1条需要被执行，成功执行0条
+2020-08-31 16:06:56,666 - root - INFO - ----------dgj
+2020-08-31 16:06:56,731 - root - INFO - 执行步骤我的直属商户列表
+2020-08-31 16:06:56,825 - root - INFO - 执行步骤我的直属商户列表通过
+2020-08-31 16:06:56,827 - root - INFO - 执行步骤全部商户信息
+2020-08-31 16:06:57,234 - root - INFO - 执行步骤全部商户信息失败
+2020-08-31 16:06:57,240 - root - INFO - 出现异常Traceback (most recent call last):
+  File "D:\python\Interface\TestScripts\TestSendMail.py", line 30, in TestSendMailAndCreateContacts
+    result = CreateContacts.dataDriverFun(stepSheetObj,loginname)
+  File "D:\python\Interface\TestScripts\CreateContacts.py", line 79, in dataDriverFun
+    raise e
+  File "D:\python\Interface\TestScripts\CreateContacts.py", line 71, in dataDriverFun
+    % (len(stepRowNums) - 1, requiredDatas, successDatas))
+TypeError: object of type 'int' has no len()
+
+2020-08-31 16:08:13,728 - root - INFO - ----------dgj
+2020-08-31 16:08:13,833 - root - INFO - 执行步骤我的直属商户列表
+2020-08-31 16:08:13,961 - root - INFO - 执行步骤我的直属商户列表通过
+2020-08-31 16:08:13,966 - root - INFO - 执行步骤全部商户信息
+2020-08-31 16:08:15,705 - root - INFO - 执行步骤全部商户信息失败
+2020-08-31 16:08:15,705 - root - INFO - 共2条用例，2条需要被执行，成功执行1条
+2020-08-31 16:08:15,706 - root - INFO - 用例店管家执行失败
+2020-08-31 16:08:15,871 - root - INFO - 共1条用例，1条需要被执行，成功执行0条

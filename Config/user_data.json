@@ -1,0 +1,22 @@
+{
+  "dgjlogin": {"data": {"password":"dY8lyoplh35/uLpH28o2LQ==",
+                        "phoneNumber":"18616726549"},
+               "meta": {"accessToken":"",
+                        "appKey":"TxB4du9X",
+                         "clientName":"Android_MHA-AL00_9_dgj",
+                         "clientVersion":"1.2.9",
+                         "transCode":"100100401",
+                         "transDate":"20200817105853",
+                         "transNonce":"80964490-7217-4fe7-95aa-f05ac129c537",
+                         "username":""}
+  },"login": {"data": {"password": "SncXlksKhI1NEAiAfF+2zw==",
+                      "phoneNumber": "13761917640"},
+            "meta": {"appKey":"TxB4du9X",
+                     "clientVersion":"2.1.3",
+                     "clientName":"IOS_12.2_qsj",
+                     "username":"",
+                     "transCode":"100100401",
+                     "transDate":"20200724143402",
+                     "transNonce":"2609dbd3-e31c-4db9-a0dd-cc827d1c5c10"}
+  }
+}

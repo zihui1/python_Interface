@@ -1,0 +1,6 @@
+{
+  "findShopClassificationInfo": {"data":{"orgId":"9761"},"meta":{"accessToken":"3G6bh2itQeKsFXX52tZU2g","appKey":"TxB4du9X","clientName":"Android_MHA-AL00_9_dgj","clientVersion":"1.2.9","transCode":"","transDate":"20200817110125","transNonce":"168b0521-2635-4e9f-b1d4-b1c39ebec7dd","username":"18616726549"}
+  },"getMerchantInfo": {"data":{"condition":"","mercType":"1","orgId":"9761"},
+            "meta": {"accessToken":"BFJzTIefQRCvN-_mJrOscg","appKey":"TxB4du9X","clientName":"Android_MHA-AL00_9_dgj","clientVersion":"1.2.9","transCode":"","transDate":"20200817111518","transNonce":"a9d63954-c7b3-4036-a615-73d48a34c7bd","username":"18616726549"},"page":{"pageNumber":0,"pageSize":25}
+  }
+}

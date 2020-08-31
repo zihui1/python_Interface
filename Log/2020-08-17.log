@@ -1,0 +1,383 @@
+2020-08-17 09:29:29,525 - root - INFO - 执行步骤登录获取tonke
+2020-08-17 09:30:00,897 - root - INFO - 执行步骤登录获取tonke
+2020-08-17 09:30:52,097 - root - INFO - 执行步骤登录获取tonke
+2020-08-17 09:32:18,223 - root - INFO - 执行步骤登录获取tonke
+2020-08-17 09:33:03,302 - root - INFO - 执行步骤登录获取tonke
+2020-08-17 09:33:13,553 - root - INFO - 执行步骤登录获取tonke
+2020-08-17 09:33:35,795 - root - INFO - 执行步骤登录获取tonke
+2020-08-17 09:33:51,691 - root - INFO - 执行步骤登录获取tonke
+2020-08-17 09:34:50,247 - root - INFO - 执行步骤登录获取tonke
+2020-08-17 09:36:06,063 - root - INFO - 执行步骤登录获取tonke
+2020-08-17 09:36:45,338 - root - INFO - 执行步骤登录获取tonke
+2020-08-17 09:37:09,244 - root - INFO - 执行步骤登录获取tonke
+2020-08-17 09:38:39,892 - root - INFO - 执行步骤登录获取tonke
+2020-08-17 09:39:03,394 - root - INFO - 执行步骤登录获取tonke
+2020-08-17 09:39:10,779 - root - INFO - 执行步骤登录获取tonke
+2020-08-17 09:39:29,312 - root - INFO - 执行步骤登录获取tonke
+2020-08-17 09:42:18,828 - root - INFO - 执行步骤登录获取tonke
+2020-08-17 10:03:48,572 - root - INFO - 执行步骤登录获取tonke
+2020-08-17 10:36:02,673 - root - INFO - 执行步骤登录获取tonke
+2020-08-17 11:07:20,787 - root - INFO - 执行步骤我的直属商户列表
+2020-08-17 11:07:38,866 - root - INFO - 执行步骤我的直属商户列表
+2020-08-17 11:18:03,015 - root - INFO - 执行步骤我的直属商户列表
+2020-08-17 11:18:03,685 - root - INFO - 执行步骤全部商户信息
+2020-08-17 11:19:12,399 - root - INFO - 执行步骤我的直属商户列表
+2020-08-17 11:19:12,768 - root - INFO - 执行步骤全部商户信息
+2020-08-17 11:20:31,625 - root - INFO - 执行步骤我的直属商户列表
+2020-08-17 11:20:32,182 - root - INFO - 执行步骤全部商户信息
+2020-08-17 11:21:28,993 - root - INFO - 执行步骤我的直属商户列表
+2020-08-17 11:25:17,752 - root - INFO - 执行步骤全部商户信息
+2020-08-17 13:47:04,228 - root - INFO - 执行步骤我的直属商户列表
+2020-08-17 13:48:10,710 - root - INFO - 执行步骤全部商户信息
+2020-08-17 14:00:08,995 - root - INFO - 执行步骤我的直属商户列表
+2020-08-17 14:00:09,054 - root - INFO - 执行步骤全部商户信息
+2020-08-17 14:01:08,474 - root - INFO - 执行步骤我的直属商户列表
+2020-08-17 14:01:08,519 - root - INFO - 执行步骤全部商户信息
+2020-08-17 14:03:04,034 - root - INFO - 执行步骤我的直属商户列表
+2020-08-17 14:03:04,395 - root - INFO - 执行步骤全部商户信息
+2020-08-17 14:10:58,775 - root - INFO - 执行步骤我的直属商户列表
+2020-08-17 14:10:58,817 - root - INFO - 执行步骤全部商户信息
+2020-08-17 14:20:20,393 - root - INFO - 执行步骤我的直属商户列表
+2020-08-17 14:20:20,475 - root - INFO - 共2条用例，1条需要被执行，成功执行0条
+2020-08-17 14:20:20,477 - root - INFO - 执行步骤全部商户信息
+2020-08-17 14:20:20,892 - root - INFO - 共2条用例，2条需要被执行，成功执行0条
+2020-08-17 14:24:32,673 - root - INFO - 执行步骤我的直属商户列表
+2020-08-17 14:24:32,704 - root - INFO - 共2条用例，1条需要被执行，成功执行1条
+2020-08-17 14:24:32,706 - root - INFO - 执行步骤全部商户信息
+2020-08-17 14:24:33,260 - root - INFO - 共2条用例，2条需要被执行，成功执行2条
+2020-08-17 14:25:03,709 - root - INFO - 执行步骤我的直属商户列表
+2020-08-17 14:25:03,741 - root - INFO - 执行步骤全部商户信息
+2020-08-17 14:25:04,057 - root - INFO - 共2条用例，2条需要被执行，成功执行2条
+2020-08-17 14:25:46,880 - root - INFO - 执行步骤我的直属商户列表
+2020-08-17 14:25:46,928 - root - INFO - 执行步骤全部商户信息
+2020-08-17 14:25:47,250 - root - INFO - 共2条用例，2条需要被执行，成功执行2条
+2020-08-17 14:25:57,027 - root - INFO - 执行步骤我的直属商户列表
+2020-08-17 14:25:57,063 - root - INFO - 执行步骤全部商户信息
+2020-08-17 14:25:57,279 - root - INFO - 共2条用例，2条需要被执行，成功执行2条
+2020-08-17 14:35:04,449 - root - INFO - 执行步骤我的直属商户列表
+2020-08-17 14:36:24,234 - root - INFO - 执行步骤我的直属商户列表
+2020-08-17 14:37:29,193 - root - INFO - 执行步骤我的直属商户列表
+2020-08-17 14:40:59,403 - root - INFO - 执行步骤我的直属商户列表
+2020-08-17 14:43:14,128 - root - INFO - 执行步骤我的直属商户列表
+2020-08-17 14:44:35,795 - root - INFO - 执行步骤我的直属商户列表
+2020-08-17 14:44:40,027 - root - INFO - 执行步骤我的直属商户列表
+2020-08-17 14:46:18,297 - root - INFO - 执行步骤我的直属商户列表
+2020-08-17 14:47:15,477 - root - INFO - 执行步骤我的直属商户列表
+2020-08-17 14:47:27,491 - root - INFO - 执行步骤我的直属商户列表
+2020-08-17 14:48:51,279 - root - INFO - 执行步骤我的直属商户列表
+2020-08-17 14:50:48,408 - root - INFO - 执行步骤我的直属商户列表
+2020-08-17 14:56:09,663 - root - INFO - 执行步骤我的直属商户列表
+2020-08-17 14:56:09,749 - root - INFO - 执行步骤全部商户信息
+2020-08-17 14:56:10,124 - root - INFO - 共2条用例，2条需要被执行，成功执行0条
+2020-08-17 15:27:00,799 - root - INFO - 执行步骤我的直属商户列表
+2020-08-17 15:27:10,953 - root - INFO - 执行步骤我的直属商户列表
+2020-08-17 15:27:11,028 - root - INFO - 执行步骤全部商户信息
+2020-08-17 15:27:11,650 - root - INFO - 共2条用例，2条需要被执行，成功执行0条
+2020-08-17 15:27:44,296 - root - INFO - 执行步骤我的直属商户列表
+2020-08-17 15:27:44,415 - root - INFO - 执行步骤全部商户信息
+2020-08-17 15:27:44,828 - root - INFO - 共2条用例，2条需要被执行，成功执行0条
+2020-08-17 15:27:57,093 - root - INFO - 执行步骤我的直属商户列表
+2020-08-17 15:27:57,183 - root - INFO - 执行步骤全部商户信息
+2020-08-17 15:27:57,530 - root - INFO - 共2条用例，2条需要被执行，成功执行0条
+2020-08-17 15:28:42,971 - root - INFO - 执行步骤我的直属商户列表
+2020-08-17 15:28:43,101 - root - INFO - 执行步骤全部商户信息
+2020-08-17 15:28:43,377 - root - INFO - 共2条用例，2条需要被执行，成功执行0条
+2020-08-17 15:29:28,942 - root - INFO - 执行步骤我的直属商户列表
+2020-08-17 15:29:29,243 - root - INFO - 执行步骤全部商户信息
+2020-08-17 15:29:29,752 - root - INFO - 共2条用例，2条需要被执行，成功执行0条
+2020-08-17 15:29:38,991 - root - INFO - 执行步骤我的直属商户列表
+2020-08-17 15:29:39,066 - root - INFO - 执行步骤全部商户信息
+2020-08-17 15:29:39,459 - root - INFO - 共2条用例，2条需要被执行，成功执行0条
+2020-08-17 15:30:30,161 - root - INFO - 执行步骤我的直属商户列表
+2020-08-17 15:30:30,241 - root - INFO - 执行步骤全部商户信息
+2020-08-17 15:30:30,589 - root - INFO - 共2条用例，2条需要被执行，成功执行0条
+2020-08-17 15:30:41,865 - root - INFO - 执行步骤我的直属商户列表
+2020-08-17 15:30:51,043 - root - INFO - 执行步骤全部商户信息
+2020-08-17 15:31:10,332 - root - INFO - 执行步骤我的直属商户列表
+2020-08-17 15:31:10,398 - root - INFO - 执行步骤全部商户信息
+2020-08-17 15:31:10,651 - root - INFO - 共2条用例，2条需要被执行，成功执行0条
+2020-08-17 15:32:13,276 - root - INFO - 执行步骤我的直属商户列表
+2020-08-17 16:12:40,389 - root - INFO - 出现异常Traceback (most recent call last):
+  File "D:\python\Interface\TestScripts\TestSendMail.py", line 9, in TestSendMailAndCreateContacts
+    caseSheet = excelObj.getSheetByName(u'app')
+  File "D:\python\Interface\Common\ParseExcel.py", line 29, in getSheetByName
+    raise e
+  File "D:\python\Interface\Common\ParseExcel.py", line 26, in getSheetByName
+    sheet = self.workbook.get_sheet_by_name(sheetName)
+  File "D:\Program Files\Python\Python37\lib\site-packages\openpyxl\compat\__init__.py", line 38, in new_func1
+    return func1(*args, **kwargs)
+  File "D:\Program Files\Python\Python37\lib\site-packages\openpyxl\workbook\workbook.py", line 247, in get_sheet_by_name
+    return self[name]
+  File "D:\Program Files\Python\Python37\lib\site-packages\openpyxl\workbook\workbook.py", line 273, in __getitem__
+    raise KeyError("Worksheet {0} does not exist.".format(key))
+KeyError: 'Worksheet app does not exist.'
+
+2020-08-17 16:13:11,996 - root - INFO - 共1条用例，0条需要被执行，成功执行0条
+2020-08-17 16:15:43,626 - root - INFO - ----------dgj
+2020-08-17 16:15:43,627 - root - INFO - 出现异常Traceback (most recent call last):
+  File "D:\python\Interface\TestScripts\TestSendMail.py", line 29, in TestSendMailAndCreateContacts
+    CreateContacts.writeTestResult(stepSheetName)
+TypeError: writeTestResult() missing 3 required positional arguments: 'rowNo', 'colsNo', and 'testResult'
+
+2020-08-17 16:16:03,193 - root - INFO - ----------dgj
+2020-08-17 16:17:32,778 - root - INFO - ----------dgj
+2020-08-17 16:17:32,780 - root - INFO - 出现异常Traceback (most recent call last):
+  File "D:\python\Interface\TestScripts\TestSendMail.py", line 30, in TestSendMailAndCreateContacts
+    CreateContacts.writeTestResult(stepSheetObj)
+TypeError: writeTestResult() missing 3 required positional arguments: 'rowNo', 'colsNo', and 'testResult'
+
+2020-08-17 16:18:13,441 - root - INFO - ----------dgj
+2020-08-17 16:18:13,443 - root - INFO - 执行步骤我的直属商户列表
+2020-08-17 16:18:13,486 - root - INFO - 出现异常Traceback (most recent call last):
+  File "D:\python\Interface\TestScripts\WriteTestResult.py", line 22, in writeTestResult
+    style=colorDict[testResult])
+  File "D:\python\Interface\Common\ParseExcel.py", line 126, in writeCell
+    raise e
+  File "D:\python\Interface\Common\ParseExcel.py", line 124, in writeCell
+    self.workbook.save(self.excelFile)
+  File "D:\Program Files\Python\Python37\lib\site-packages\openpyxl\workbook\workbook.py", line 392, in save
+    save_workbook(self, filename)
+  File "D:\Program Files\Python\Python37\lib\site-packages\openpyxl\writer\excel.py", line 291, in save_workbook
+    archive = ZipFile(filename, 'w', ZIP_DEFLATED, allowZip64=True)
+  File "D:\Program Files\Python\Python37\lib\zipfile.py", line 1207, in __init__
+    self.fp = io.open(file, filemode)
+PermissionError: [Errno 13] Permission denied: 'D:\\python\\Interface\\Data\\cas.xlsx'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\python\Interface\TestScripts\TestSendMail.py", line 30, in TestSendMailAndCreateContacts
+    CreateContacts.dataDriverFun(stepSheetObj)
+  File "D:\python\Interface\TestScripts\CreateContacts.py", line 71, in dataDriverFun
+    raise e
+  File "D:\python\Interface\TestScripts\CreateContacts.py", line 63, in dataDriverFun
+    testResult="faild")
+  File "D:\python\Interface\TestScripts\WriteTestResult.py", line 42, in writeTestResult
+    log.error(u'写excel时发生异常' + traceback.print_exc())
+TypeError: can only concatenate str (not "NoneType") to str
+
+2020-08-17 16:19:43,680 - root - INFO - ----------dgj
+2020-08-17 16:19:43,684 - root - INFO - 执行步骤我的直属商户列表
+2020-08-17 16:21:08,750 - root - INFO - ----------dgj
+2020-08-17 16:21:08,752 - root - INFO - 执行步骤我的直属商户列表
+2020-08-17 16:21:08,786 - root - INFO - 出现异常Traceback (most recent call last):
+  File "D:\python\Interface\TestScripts\WriteTestResult.py", line 22, in writeTestResult
+    style=colorDict[testResult])
+  File "D:\python\Interface\Common\ParseExcel.py", line 126, in writeCell
+    raise e
+  File "D:\python\Interface\Common\ParseExcel.py", line 124, in writeCell
+    self.workbook.save(self.excelFile)
+  File "D:\Program Files\Python\Python37\lib\site-packages\openpyxl\workbook\workbook.py", line 392, in save
+    save_workbook(self, filename)
+  File "D:\Program Files\Python\Python37\lib\site-packages\openpyxl\writer\excel.py", line 291, in save_workbook
+    archive = ZipFile(filename, 'w', ZIP_DEFLATED, allowZip64=True)
+  File "D:\Program Files\Python\Python37\lib\zipfile.py", line 1207, in __init__
+    self.fp = io.open(file, filemode)
+PermissionError: [Errno 13] Permission denied: 'D:\\python\\Interface\\Data\\cas.xlsx'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\python\Interface\TestScripts\TestSendMail.py", line 30, in TestSendMailAndCreateContacts
+    CreateContacts.dataDriverFun(stepSheetObj)
+  File "D:\python\Interface\TestScripts\CreateContacts.py", line 71, in dataDriverFun
+    raise e
+  File "D:\python\Interface\TestScripts\CreateContacts.py", line 63, in dataDriverFun
+    testResult="faild")
+  File "D:\python\Interface\TestScripts\WriteTestResult.py", line 42, in writeTestResult
+    log.error(u'写excel时发生异常' + traceback.print_exc())
+TypeError: can only concatenate str (not "NoneType") to str
+
+2020-08-17 16:23:46,788 - root - INFO - ----------dgj
+2020-08-17 16:23:46,791 - root - INFO - 执行步骤我的直属商户列表
+2020-08-17 16:23:46,825 - root - INFO - 出现异常Traceback (most recent call last):
+  File "D:\python\Interface\TestScripts\WriteTestResult.py", line 22, in writeTestResult
+    style=colorDict[testResult])
+  File "D:\python\Interface\Common\ParseExcel.py", line 126, in writeCell
+    raise e
+  File "D:\python\Interface\Common\ParseExcel.py", line 120, in writeCell
+    sheet.cell(row = rowNo,column = colsNo).value = content
+AttributeError: 'tuple' object has no attribute 'cell'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\python\Interface\TestScripts\TestSendMail.py", line 30, in TestSendMailAndCreateContacts
+    CreateContacts.dataDriverFun(stepSheetObj)
+  File "D:\python\Interface\TestScripts\CreateContacts.py", line 70, in dataDriverFun
+    raise e
+  File "D:\python\Interface\TestScripts\CreateContacts.py", line 62, in dataDriverFun
+    testResult="faild")
+  File "D:\python\Interface\TestScripts\WriteTestResult.py", line 42, in writeTestResult
+    log.error(u'写excel时发生异常' + traceback.print_exc())
+TypeError: can only concatenate str (not "NoneType") to str
+
+2020-08-17 16:23:58,948 - root - INFO - ----------dgj
+2020-08-17 16:23:58,951 - root - INFO - 执行步骤我的直属商户列表
+2020-08-17 16:25:37,555 - root - INFO - ----------dgj
+2020-08-17 16:25:37,557 - root - INFO - 执行步骤我的直属商户列表
+2020-08-17 16:25:37,594 - root - INFO - 出现异常Traceback (most recent call last):
+  File "D:\python\Interface\TestScripts\WriteTestResult.py", line 22, in writeTestResult
+    style=colorDict[testResult])
+  File "D:\python\Interface\Common\ParseExcel.py", line 126, in writeCell
+    raise e
+  File "D:\python\Interface\Common\ParseExcel.py", line 124, in writeCell
+    self.workbook.save(self.excelFile)
+  File "D:\Program Files\Python\Python37\lib\site-packages\openpyxl\workbook\workbook.py", line 392, in save
+    save_workbook(self, filename)
+  File "D:\Program Files\Python\Python37\lib\site-packages\openpyxl\writer\excel.py", line 291, in save_workbook
+    archive = ZipFile(filename, 'w', ZIP_DEFLATED, allowZip64=True)
+  File "D:\Program Files\Python\Python37\lib\zipfile.py", line 1207, in __init__
+    self.fp = io.open(file, filemode)
+PermissionError: [Errno 13] Permission denied: 'D:\\python\\Interface\\Data\\cas.xlsx'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\python\Interface\TestScripts\TestSendMail.py", line 30, in TestSendMailAndCreateContacts
+    CreateContacts.dataDriverFun(stepSheetObj)
+  File "D:\python\Interface\TestScripts\CreateContacts.py", line 70, in dataDriverFun
+    raise e
+  File "D:\python\Interface\TestScripts\CreateContacts.py", line 62, in dataDriverFun
+    testResult="faild")
+  File "D:\python\Interface\TestScripts\WriteTestResult.py", line 42, in writeTestResult
+    log.error(u'写excel时发生异常' + traceback.print_exc())
+TypeError: can only concatenate str (not "NoneType") to str
+
+2020-08-17 16:26:28,193 - root - INFO - ----------dgj
+2020-08-17 16:26:28,196 - root - INFO - 执行步骤我的直属商户列表
+2020-08-17 16:26:28,239 - root - INFO - 出现异常Traceback (most recent call last):
+  File "D:\python\Interface\TestScripts\WriteTestResult.py", line 22, in writeTestResult
+    style=colorDict[testResult])
+  File "D:\python\Interface\Common\ParseExcel.py", line 126, in writeCell
+    raise e
+  File "D:\python\Interface\Common\ParseExcel.py", line 124, in writeCell
+    self.workbook.save(self.excelFile)
+  File "D:\Program Files\Python\Python37\lib\site-packages\openpyxl\workbook\workbook.py", line 392, in save
+    save_workbook(self, filename)
+  File "D:\Program Files\Python\Python37\lib\site-packages\openpyxl\writer\excel.py", line 291, in save_workbook
+    archive = ZipFile(filename, 'w', ZIP_DEFLATED, allowZip64=True)
+  File "D:\Program Files\Python\Python37\lib\zipfile.py", line 1207, in __init__
+    self.fp = io.open(file, filemode)
+PermissionError: [Errno 13] Permission denied: 'D:\\python\\Interface\\Data\\cas.xlsx'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\python\Interface\TestScripts\TestSendMail.py", line 30, in TestSendMailAndCreateContacts
+    CreateContacts.dataDriverFun(stepSheetObj)
+  File "D:\python\Interface\TestScripts\CreateContacts.py", line 71, in dataDriverFun
+    raise e
+  File "D:\python\Interface\TestScripts\CreateContacts.py", line 63, in dataDriverFun
+    testResult="faild")
+  File "D:\python\Interface\TestScripts\WriteTestResult.py", line 42, in writeTestResult
+    log.error(u'写excel时发生异常' + traceback.print_exc())
+TypeError: can only concatenate str (not "NoneType") to str
+
+2020-08-17 16:27:21,345 - root - INFO - ----------dgj
+2020-08-17 16:27:21,370 - root - INFO - 执行步骤我的直属商户列表
+2020-08-17 16:27:21,541 - root - INFO - 出现异常Traceback (most recent call last):
+  File "D:\python\Interface\TestScripts\WriteTestResult.py", line 22, in writeTestResult
+    style=colorDict[testResult])
+  File "D:\python\Interface\Common\ParseExcel.py", line 126, in writeCell
+    raise e
+  File "D:\python\Interface\Common\ParseExcel.py", line 124, in writeCell
+    self.workbook.save(self.excelFile)
+  File "D:\Program Files\Python\Python37\lib\site-packages\openpyxl\workbook\workbook.py", line 392, in save
+    save_workbook(self, filename)
+  File "D:\Program Files\Python\Python37\lib\site-packages\openpyxl\writer\excel.py", line 291, in save_workbook
+    archive = ZipFile(filename, 'w', ZIP_DEFLATED, allowZip64=True)
+  File "D:\Program Files\Python\Python37\lib\zipfile.py", line 1207, in __init__
+    self.fp = io.open(file, filemode)
+PermissionError: [Errno 13] Permission denied: 'D:\\python\\Interface\\Data\\cas.xlsx'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\python\Interface\TestScripts\TestSendMail.py", line 30, in TestSendMailAndCreateContacts
+    CreateContacts.dataDriverFun(stepSheetObj)
+  File "D:\python\Interface\TestScripts\CreateContacts.py", line 72, in dataDriverFun
+    raise e
+  File "D:\python\Interface\TestScripts\CreateContacts.py", line 64, in dataDriverFun
+    testResult="faild")
+  File "D:\python\Interface\TestScripts\WriteTestResult.py", line 42, in writeTestResult
+    log.error(u'写excel时发生异常' + traceback.print_exc())
+TypeError: can only concatenate str (not "NoneType") to str
+
+2020-08-17 16:30:01,370 - root - INFO - ----------dgj
+2020-08-17 16:30:01,373 - root - INFO - 执行步骤我的直属商户列表
+2020-08-17 16:30:01,464 - root - INFO - 执行步骤全部商户信息
+2020-08-17 16:30:01,873 - root - INFO - 共2条用例，2条需要被执行，成功执行0条
+2020-08-17 16:30:01,874 - root - INFO - 共1条用例，1条需要被执行，成功执行0条
+2020-08-17 16:34:39,678 - root - INFO - ----------dgj
+2020-08-17 16:34:39,682 - root - INFO - 执行步骤我的直属商户列表
+2020-08-17 16:34:39,792 - root - INFO - 执行步骤全部商户信息
+2020-08-17 16:34:40,164 - root - INFO - 共2条用例，2条需要被执行，成功执行0条
+2020-08-17 16:34:40,165 - root - INFO - 用例店管家执行失败
+2020-08-17 16:34:40,240 - root - INFO - 共1条用例，1条需要被执行，成功执行0条
+2020-08-17 16:35:45,550 - root - INFO - ----------dgj
+2020-08-17 16:35:45,552 - root - INFO - 执行步骤我的直属商户列表
+2020-08-17 16:35:45,596 - root - INFO - 出现异常Traceback (most recent call last):
+  File "D:\python\Interface\TestScripts\WriteTestResult.py", line 22, in writeTestResult
+    style=colorDict[testResult])
+  File "D:\python\Interface\Common\ParseExcel.py", line 126, in writeCell
+    raise e
+  File "D:\python\Interface\Common\ParseExcel.py", line 124, in writeCell
+    self.workbook.save(self.excelFile)
+  File "D:\Program Files\Python\Python37\lib\site-packages\openpyxl\workbook\workbook.py", line 392, in save
+    save_workbook(self, filename)
+  File "D:\Program Files\Python\Python37\lib\site-packages\openpyxl\writer\excel.py", line 291, in save_workbook
+    archive = ZipFile(filename, 'w', ZIP_DEFLATED, allowZip64=True)
+  File "D:\Program Files\Python\Python37\lib\zipfile.py", line 1207, in __init__
+    self.fp = io.open(file, filemode)
+PermissionError: [Errno 13] Permission denied: 'D:\\python\\Interface\\Data\\cas.xlsx'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\python\Interface\TestScripts\TestSendMail.py", line 30, in TestSendMailAndCreateContacts
+    result = CreateContacts.dataDriverFun(stepSheetObj)
+  File "D:\python\Interface\TestScripts\CreateContacts.py", line 70, in dataDriverFun
+    raise e
+  File "D:\python\Interface\TestScripts\CreateContacts.py", line 62, in dataDriverFun
+    testResult="faild")
+  File "D:\python\Interface\TestScripts\WriteTestResult.py", line 42, in writeTestResult
+    log.error(u'写excel时发生异常' + traceback.print_exc())
+TypeError: can only concatenate str (not "NoneType") to str
+
+2020-08-17 16:36:21,084 - root - INFO - ----------dgj
+2020-08-17 16:36:21,086 - root - INFO - 执行步骤我的直属商户列表
+2020-08-17 16:36:21,120 - root - INFO - 出现异常Traceback (most recent call last):
+  File "D:\python\Interface\TestScripts\WriteTestResult.py", line 22, in writeTestResult
+    style=colorDict[testResult])
+  File "D:\python\Interface\Common\ParseExcel.py", line 126, in writeCell
+    raise e
+  File "D:\python\Interface\Common\ParseExcel.py", line 124, in writeCell
+    self.workbook.save(self.excelFile)
+  File "D:\Program Files\Python\Python37\lib\site-packages\openpyxl\workbook\workbook.py", line 392, in save
+    save_workbook(self, filename)
+  File "D:\Program Files\Python\Python37\lib\site-packages\openpyxl\writer\excel.py", line 291, in save_workbook
+    archive = ZipFile(filename, 'w', ZIP_DEFLATED, allowZip64=True)
+  File "D:\Program Files\Python\Python37\lib\zipfile.py", line 1207, in __init__
+    self.fp = io.open(file, filemode)
+PermissionError: [Errno 13] Permission denied: 'D:\\python\\Interface\\Data\\cas.xlsx'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\python\Interface\TestScripts\TestSendMail.py", line 30, in TestSendMailAndCreateContacts
+    result = CreateContacts.dataDriverFun(stepSheetObj)
+  File "D:\python\Interface\TestScripts\CreateContacts.py", line 70, in dataDriverFun
+    raise e
+  File "D:\python\Interface\TestScripts\CreateContacts.py", line 62, in dataDriverFun
+    testResult="faild")
+  File "D:\python\Interface\TestScripts\WriteTestResult.py", line 42, in writeTestResult
+    log.error(u'写excel时发生异常' + traceback.print_exc())
+TypeError: can only concatenate str (not "NoneType") to str
+
+2020-08-17 16:36:48,849 - root - INFO - ----------dgj
+2020-08-17 16:36:48,852 - root - INFO - 执行步骤我的直属商户列表
+2020-08-17 16:36:48,920 - root - INFO - 执行步骤全部商户信息
+2020-08-17 16:36:49,328 - root - INFO - 共2条用例，2条需要被执行，成功执行0条
+2020-08-17 16:36:49,329 - root - INFO - 用例店管家执行失败
+2020-08-17 16:36:49,369 - root - INFO - 共1条用例，1条需要被执行，成功执行0条
