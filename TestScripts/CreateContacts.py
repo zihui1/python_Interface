@@ -23,7 +23,7 @@ def dataDriverFun(stepSheetObj,loginname):
             isExecute = rowObj[testCase_isExecute -1].value
             url = rowObj[testCase_url - 1].value
             method = rowObj[testCase_method - 1].value
-            data1 = rowObj[testCase_data - 1].value
+            data = rowObj[testCase_data - 1].value
             Token = rowObj[testCase_cookie - 1].value
             theway = rowObj[testCase_theway - 1].value
             eresult = rowObj[testCase_eresult - 1].value
@@ -33,14 +33,14 @@ def dataDriverFun(stepSheetObj,loginname):
                 requiredDatas += 1
                 log.info(u'执行步骤%s'%(description))
                 if Token == "y":
-                    data2 = get_value(data1,"/Config/shop_data.json")
-                    check_json_value(data2, "accessToken", loginname["accessToken"])
-                    check_json_value(data2, "transDate", time_stamp)
-                    check_json_value(data2, "transNonce", str(uuid.uuid1()))
+                    getdata = get_value(data,"/Config/shop_data.json")
+                    check_json_value(getdata, "accessToken", loginname["accessToken"])
+                    check_json_value(getdata, "transDate", time_stamp)
+                    check_json_value(getdata, "transNonce", str(uuid.uuid1()))
                     try:
-                        respone1 = request().run_main(method, url, json.dumps(data2), headrs)
+                        respone = request().run_main(method, url, json.dumps(getdata), headrs)
                         if theway == "json":
-                            result = handle_result_json(respone1.json(),eval(eresult))
+                            result = handle_result_json(respone.json(),eval(eresult))
                             if result:
                                 successDatas += 1
                                 writeTestResult(stepSheetObj, rowNo=index, colsNo="testCase", \
@@ -51,7 +51,7 @@ def dataDriverFun(stepSheetObj,loginname):
                                                 testResult="faild")
                                 log.info(u'执行步骤%s失败' % (description))
                         if theway == "code":
-                            if respone1.status_code == int(eresult):
+                            if respone.status_code == int(eresult):
                                 successDatas += 1
                                 writeTestResult(stepSheetObj, rowNo=index, colsNo="testCase", \
                                                 testResult="pass")
@@ -67,8 +67,8 @@ def dataDriverFun(stepSheetObj,loginname):
                 # 将不需要执行的数据行的执行时间和执行结果单元格清空
                 writeTestResult(stepSheetObj,rowNo=index,colsNo="testCase",\
                                 testResult="")
-        log.info(u"共%s条用例，%s条需要被执行，成功执行%s条" \
-                 % (stepRowNums - 1, requiredDatas, successDatas))
+        # log.info(u"共%s条用例，%s条需要被执行，成功执行%s条" \
+        #          % (stepRowNums - 1, requiredDatas, successDatas))
         if requiredDatas == successDatas:
             # 只要当成功执行的数据条数等于被设置为需要执行的数据条数，
             # 才表示调用数据驱动的测试用例执行通过

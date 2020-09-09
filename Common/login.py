@@ -13,5 +13,25 @@ def login(name):
         respone = request().run_main("post", url, json.dumps(data), header=headrs)
         dic = json_txt(respone.json())
         return dic
+    if name =="dzg":
+        url = "https://test.uenpay.com/dgjs-api/user/main/login"
+        headrs = get_value("Header", "/Config/header.json")
+        time_stamp = time.strftime('%Y%m%d%H%M%S', time.localtime(time.time()))
+        data = get_value("dzglogin")
+        check_json_value(data, "transDate", time_stamp)
+        check_json_value(data, "transNonce", str(uuid.uuid1()))
+        respone = request().run_main("post", url, json.dumps(data), header=headrs)
+        dic = json_txt(respone.json())
+        return dic
+    if name =="sxzs":
+        url = "http://192.168.31.232/sxzs-api/user/main/login"
+        headrs = get_value("Header", "/Config/header.json")
+        time_stamp = time.strftime('%Y%m%d%H%M%S', time.localtime(time.time()))
+        data = get_value("sxzslogin")
+        check_json_value(data, "transDate", time_stamp)
+        check_json_value(data, "transNonce", str(uuid.uuid1()))
+        respone = request().run_main("post", url, json.dumps(data), header=headrs)
+        dic = json_txt(respone.json())
+        return dic
 if __name__ == "__main__":
-    print(login("dgj"))
+    print(login("sxzs"))
