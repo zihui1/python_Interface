@@ -1,0 +1,218 @@
+2020-09-01 09:50:41,981 - root - INFO - ----------dgj
+2020-09-01 09:50:42,055 - root - INFO - 执行步骤我的直属商户列表
+2020-09-01 09:50:42,059 - root - INFO - 出现异常Traceback (most recent call last):
+  File "D:\python\Interface\TestScripts\TestSendMail.py", line 30, in TestSendMailAndCreateContacts
+    result = CreateContacts.dataDriverFun(stepSheetObj,loginname)
+  File "D:\python\Interface\TestScripts\CreateContacts.py", line 79, in dataDriverFun
+    raise e
+  File "D:\python\Interface\TestScripts\CreateContacts.py", line 36, in dataDriverFun
+    data2 = get_value(data1,"/Config/shop_data.json")
+  File "D:\python\Interface\Common\HandleJson.py", line 16, in get_value
+    data = read_json(file_name)
+  File "D:\python\Interface\Common\HandleJson.py", line 12, in read_json
+    data = json.load(f)
+  File "D:\Program Files\Python\Python37\lib\json\__init__.py", line 296, in load
+    parse_constant=parse_constant, object_pairs_hook=object_pairs_hook, **kw)
+  File "D:\Program Files\Python\Python37\lib\json\__init__.py", line 348, in loads
+    return _default_decoder.decode(s)
+  File "D:\Program Files\Python\Python37\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "D:\Program Files\Python\Python37\lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 6 column 3 (char 1301)
+
+2020-09-01 09:51:44,593 - root - INFO - ----------dgj
+2020-09-01 09:52:26,731 - root - INFO - 执行步骤我的直属商户列表
+2020-09-01 09:53:03,225 - root - INFO - 出现异常Traceback (most recent call last):
+  File "D:\python\Interface\TestScripts\TestSendMail.py", line 30, in TestSendMailAndCreateContacts
+    result = CreateContacts.dataDriverFun(stepSheetObj,loginname)
+  File "D:\python\Interface\TestScripts\CreateContacts.py", line 79, in dataDriverFun
+    raise e
+  File "D:\python\Interface\TestScripts\CreateContacts.py", line 36, in dataDriverFun
+    data2 = get_value(data1,"/Config/shop_data.json")
+  File "D:\python\Interface\Common\HandleJson.py", line 16, in get_value
+    data = read_json(file_name)
+  File "D:\python\Interface\Common\HandleJson.py", line 12, in read_json
+    data = json.load(f)
+  File "D:\Program Files\Python\Python37\lib\json\__init__.py", line 296, in load
+    parse_constant=parse_constant, object_pairs_hook=object_pairs_hook, **kw)
+  File "D:\Program Files\Python\Python37\lib\json\__init__.py", line 348, in loads
+    return _default_decoder.decode(s)
+  File "D:\Program Files\Python\Python37\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "D:\Program Files\Python\Python37\lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 6 column 3 (char 1301)
+
+2020-09-01 09:54:52,023 - root - INFO - ----------dgj
+2020-09-01 09:54:59,551 - root - INFO - ----------dgj
+2020-09-01 09:54:59,601 - root - INFO - 执行步骤我的直属商户列表
+2020-09-01 09:54:59,607 - root - INFO - 出现异常Traceback (most recent call last):
+  File "D:\python\Interface\TestScripts\TestSendMail.py", line 30, in TestSendMailAndCreateContacts
+    result = CreateContacts.dataDriverFun(stepSheetObj,loginname)
+  File "D:\python\Interface\TestScripts\CreateContacts.py", line 79, in dataDriverFun
+    raise e
+  File "D:\python\Interface\TestScripts\CreateContacts.py", line 36, in dataDriverFun
+    data2 = get_value(data1,"/Config/shop_data.json")
+  File "D:\python\Interface\Common\HandleJson.py", line 16, in get_value
+    data = read_json(file_name)
+  File "D:\python\Interface\Common\HandleJson.py", line 12, in read_json
+    data = json.load(f)
+  File "D:\Program Files\Python\Python37\lib\json\__init__.py", line 296, in load
+    parse_constant=parse_constant, object_pairs_hook=object_pairs_hook, **kw)
+  File "D:\Program Files\Python\Python37\lib\json\__init__.py", line 348, in loads
+    return _default_decoder.decode(s)
+  File "D:\Program Files\Python\Python37\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "D:\Program Files\Python\Python37\lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 6 column 3 (char 1301)
+
+2020-09-01 09:57:56,575 - root - INFO - ----------dgj
+2020-09-01 09:58:51,986 - root - INFO - 执行步骤我的直属商户列表
+2020-09-01 10:00:04,335 - root - INFO - ----------sxzs
+2020-09-01 10:00:57,269 - root - INFO - 执行步骤综合查询_机构奖励明细查询日
+2020-09-01 10:03:14,994 - root - INFO - ----------sxzs
+2020-09-01 10:03:18,685 - root - INFO - 执行步骤综合查询_机构奖励明细查询日
+2020-09-01 10:03:18,803 - root - ERROR - 执行步骤综合查询_机构奖励明细查询日发生异常
+2020-09-01 10:03:18,812 - root - ERROR - None
+2020-09-01 10:03:18,815 - root - INFO - 共1条用例，1条需要被执行，成功执行0条
+2020-09-01 10:03:18,816 - root - INFO - 用例刷新支付助手执行失败
+2020-09-01 10:03:18,823 - root - INFO - 出现异常Traceback (most recent call last):
+  File "D:\python\Interface\TestScripts\WriteTestResult.py", line 22, in writeTestResult
+    style=colorDict[testResult])
+  File "D:\python\Interface\Common\ParseExcel.py", line 126, in writeCell
+    raise e
+  File "D:\python\Interface\Common\ParseExcel.py", line 124, in writeCell
+    self.workbook.save(self.excelFile)
+  File "D:\Program Files\Python\Python37\lib\site-packages\openpyxl\workbook\workbook.py", line 392, in save
+    save_workbook(self, filename)
+  File "D:\Program Files\Python\Python37\lib\site-packages\openpyxl\writer\excel.py", line 291, in save_workbook
+    archive = ZipFile(filename, 'w', ZIP_DEFLATED, allowZip64=True)
+  File "D:\Program Files\Python\Python37\lib\zipfile.py", line 1207, in __init__
+    self.fp = io.open(file, filemode)
+PermissionError: [Errno 13] Permission denied: 'D:\\python\\Interface\\Data\\cas.xlsx'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\python\Interface\TestScripts\TestSendMail.py", line 38, in TestSendMailAndCreateContacts
+    writeTestResult(caseSheet, rowNo=idx + 2, colsNo="caseStep", testResult="faild")
+  File "D:\python\Interface\TestScripts\WriteTestResult.py", line 42, in writeTestResult
+    log.error(u'写excel时发生异常' + traceback.print_exc())
+TypeError: can only concatenate str (not "NoneType") to str
+
+2020-09-01 10:03:26,851 - root - INFO - ----------sxzs
+2020-09-01 10:03:26,929 - root - INFO - 执行步骤综合查询_机构奖励明细查询日
+2020-09-01 10:03:27,078 - root - INFO - 执行步骤综合查询_机构奖励明细查询日失败
+2020-09-01 10:03:27,079 - root - INFO - 共1条用例，1条需要被执行，成功执行0条
+2020-09-01 10:03:27,079 - root - INFO - 用例刷新支付助手执行失败
+2020-09-01 10:03:27,136 - root - INFO - 共3条用例，1条需要被执行，成功执行0条
+2020-09-01 10:05:18,242 - root - INFO - ----------sxzs
+2020-09-01 10:05:18,327 - root - INFO - 执行步骤综合查询_机构奖励明细查询日
+2020-09-01 10:05:18,363 - root - ERROR - 执行步骤综合查询_机构奖励明细查询日发生异常
+2020-09-01 10:05:18,368 - root - ERROR - None
+2020-09-01 10:05:18,369 - root - INFO - 共1条用例，1条需要被执行，成功执行0条
+2020-09-01 10:05:18,371 - root - INFO - 用例刷新支付助手执行失败
+2020-09-01 10:05:18,377 - root - INFO - 出现异常Traceback (most recent call last):
+  File "D:\python\Interface\TestScripts\WriteTestResult.py", line 22, in writeTestResult
+    style=colorDict[testResult])
+  File "D:\python\Interface\Common\ParseExcel.py", line 126, in writeCell
+    raise e
+  File "D:\python\Interface\Common\ParseExcel.py", line 124, in writeCell
+    self.workbook.save(self.excelFile)
+  File "D:\Program Files\Python\Python37\lib\site-packages\openpyxl\workbook\workbook.py", line 392, in save
+    save_workbook(self, filename)
+  File "D:\Program Files\Python\Python37\lib\site-packages\openpyxl\writer\excel.py", line 291, in save_workbook
+    archive = ZipFile(filename, 'w', ZIP_DEFLATED, allowZip64=True)
+  File "D:\Program Files\Python\Python37\lib\zipfile.py", line 1207, in __init__
+    self.fp = io.open(file, filemode)
+PermissionError: [Errno 13] Permission denied: 'D:\\python\\Interface\\Data\\cas.xlsx'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\python\Interface\TestScripts\TestSendMail.py", line 38, in TestSendMailAndCreateContacts
+    writeTestResult(caseSheet, rowNo=idx + 2, colsNo="caseStep", testResult="faild")
+  File "D:\python\Interface\TestScripts\WriteTestResult.py", line 42, in writeTestResult
+    log.error(u'写excel时发生异常' + traceback.print_exc())
+TypeError: can only concatenate str (not "NoneType") to str
+
+2020-09-01 10:05:25,193 - root - INFO - ----------sxzs
+2020-09-01 10:05:25,266 - root - INFO - 执行步骤综合查询_机构奖励明细查询日
+2020-09-01 10:05:25,362 - root - INFO - 执行步骤综合查询_机构奖励明细查询日失败
+2020-09-01 10:05:25,363 - root - INFO - 共1条用例，1条需要被执行，成功执行0条
+2020-09-01 10:05:25,363 - root - INFO - 用例刷新支付助手执行失败
+2020-09-01 10:05:25,427 - root - INFO - 共3条用例，1条需要被执行，成功执行0条
+2020-09-01 10:12:01,804 - root - INFO - ----------sxzs
+2020-09-01 10:12:01,905 - root - INFO - 执行步骤综合查询_机构奖励明细查询日
+2020-09-01 10:12:02,009 - root - INFO - 执行步骤综合查询_机构奖励明细查询日失败
+2020-09-01 10:12:02,011 - root - INFO - 共1条用例，1条需要被执行，成功执行0条
+2020-09-01 10:12:02,012 - root - INFO - 用例刷新支付助手执行失败
+2020-09-01 10:12:02,074 - root - INFO - 共3条用例，1条需要被执行，成功执行0条
+2020-09-01 10:14:51,707 - root - INFO - ----------sxzs
+2020-09-01 10:14:51,797 - root - INFO - 执行步骤综合查询_机构奖励明细查询日
+2020-09-01 10:14:51,802 - root - INFO - 出现异常Traceback (most recent call last):
+  File "D:\python\Interface\TestScripts\TestSendMail.py", line 30, in TestSendMailAndCreateContacts
+    result = CreateContacts.dataDriverFun(stepSheetObj,loginname)
+  File "D:\python\Interface\TestScripts\CreateContacts.py", line 81, in dataDriverFun
+    raise e
+  File "D:\python\Interface\TestScripts\CreateContacts.py", line 37, in dataDriverFun
+    check_json_value(json.loads(data), "accessToken", loginname["accessToken"])
+  File "D:\Program Files\Python\Python37\lib\json\__init__.py", line 348, in loads
+    return _default_decoder.decode(s)
+  File "D:\Program Files\Python\Python37\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "D:\Program Files\Python\Python37\lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 2 column 3 (char 342)
+
+2020-09-01 10:15:30,737 - root - INFO - ----------sxzs
+2020-09-01 10:15:30,813 - root - INFO - 执行步骤综合查询_机构奖励明细查询日
+2020-09-01 10:15:30,818 - root - INFO - 出现异常Traceback (most recent call last):
+  File "D:\python\Interface\TestScripts\TestSendMail.py", line 30, in TestSendMailAndCreateContacts
+    result = CreateContacts.dataDriverFun(stepSheetObj,loginname)
+  File "D:\python\Interface\TestScripts\CreateContacts.py", line 81, in dataDriverFun
+    raise e
+  File "D:\python\Interface\TestScripts\CreateContacts.py", line 37, in dataDriverFun
+    check_json_value(json.loads(eval(data)), "accessToken", loginname["accessToken"])
+  File "D:\Program Files\Python\Python37\lib\json\__init__.py", line 341, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+TypeError: the JSON object must be str, bytes or bytearray, not dict
+
+2020-09-01 10:16:02,687 - root - INFO - ----------sxzs
+2020-09-01 10:16:02,785 - root - INFO - 执行步骤综合查询_机构奖励明细查询日
+2020-09-01 10:16:02,892 - root - INFO - 执行步骤综合查询_机构奖励明细查询日失败
+2020-09-01 10:16:02,892 - root - INFO - 共1条用例，1条需要被执行，成功执行0条
+2020-09-01 10:16:02,893 - root - INFO - 用例刷新支付助手执行失败
+2020-09-01 10:16:02,962 - root - INFO - 共3条用例，1条需要被执行，成功执行0条
+2020-09-01 10:29:33,383 - root - INFO - ----------sxzs
+2020-09-01 10:29:33,515 - root - INFO - 执行步骤综合查询_机构奖励明细查询日
+2020-09-01 10:29:33,707 - root - INFO - 执行步骤综合查询_机构奖励明细查询日通过
+2020-09-01 10:29:33,707 - root - INFO - 共1条用例，1条需要被执行，成功执行1条
+2020-09-01 10:29:33,708 - root - INFO - 用例刷新支付助手执行成功
+2020-09-01 10:29:33,786 - root - INFO - 共3条用例，1条需要被执行，成功执行1条
+2020-09-01 10:30:22,322 - root - INFO - ----------dgj
+2020-09-01 10:30:22,378 - root - INFO - 执行步骤我的直属商户列表
+2020-09-01 10:30:22,520 - root - INFO - 执行步骤我的直属商户列表通过
+2020-09-01 10:30:22,522 - root - INFO - 执行步骤全部商户信息
+2020-09-01 10:30:29,607 - root - INFO - 执行步骤全部商户信息失败
+2020-09-01 10:30:29,607 - root - INFO - 共2条用例，2条需要被执行，成功执行1条
+2020-09-01 10:30:29,608 - root - INFO - 用例店管家执行失败
+2020-09-01 10:30:29,676 - root - INFO - ----------sxzs
+2020-09-01 10:30:29,735 - root - INFO - 执行步骤综合查询_机构奖励明细查询日
+2020-09-01 10:30:30,031 - root - INFO - 执行步骤综合查询_机构奖励明细查询日通过
+2020-09-01 10:30:30,032 - root - INFO - 共1条用例，1条需要被执行，成功执行1条
+2020-09-01 10:30:30,033 - root - INFO - 用例刷新支付助手执行成功
+2020-09-01 10:30:30,100 - root - INFO - 共3条用例，2条需要被执行，成功执行1条
+2020-09-01 10:32:38,476 - root - INFO - ----------dgj
+2020-09-01 10:32:38,533 - root - INFO - 执行步骤我的直属商户列表
+2020-09-01 10:32:38,626 - root - INFO - 执行步骤我的直属商户列表通过
+2020-09-01 10:32:38,627 - root - INFO - 执行步骤全部商户信息
+2020-09-01 10:32:39,019 - root - INFO - 执行步骤全部商户信息失败
+2020-09-01 10:32:39,020 - root - INFO - 用例店管家执行失败
+2020-09-01 10:32:39,082 - root - INFO - ----------sxzs
+2020-09-01 10:32:39,142 - root - INFO - 执行步骤综合查询_机构奖励明细查询日
+2020-09-01 10:32:39,283 - root - INFO - 执行步骤综合查询_机构奖励明细查询日通过
+2020-09-01 10:32:39,284 - root - INFO - 用例刷新支付助手执行成功
+2020-09-01 10:32:39,348 - root - INFO - 共3条用例，2条需要被执行，成功执行1条
