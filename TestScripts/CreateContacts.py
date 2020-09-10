@@ -33,7 +33,9 @@ def dataDriverFun(stepSheetObj,loginname):
                 requiredDatas += 1
                 log.info(u'执行步骤%s'%(description))
                 if Token == "y":
-                    getdata = get_value(data,"/Config/shop_data.json")
+                    # 使用josn文件读取参数
+                    # getdata = get_value(data,"/Config/shop_data.json")
+                    getdata = json.loads(data)
                     check_json_value(getdata, "accessToken", loginname["accessToken"])
                     check_json_value(getdata, "transDate", time_stamp)
                     check_json_value(getdata, "transNonce", str(uuid.uuid1()))

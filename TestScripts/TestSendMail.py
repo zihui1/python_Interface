@@ -36,6 +36,10 @@ def TestSendMailAndCreateContacts():
                 else:
                     log.info(u'用例%s执行失败' % (caseName))
                     writeTestResult(caseSheet, rowNo=idx + 2, colsNo="caseStep", testResult="faild")
+            else:
+                # 将不需要执行的数据行的执行时间和执行结果单元格清空
+                writeTestResult(caseSheet, rowNo=idx + 2, colsNo="caseStep", \
+                                testResult="")
         log.info(u"共%s条用例，%s条需要被执行，成功执行%s条"\
                  %(len(isExecuteColumn)-1,requiredCase,successfulCase))
     except Exception as e:
