@@ -1,0 +1,30 @@
+2020-09-10 13:42:19,118 - root - INFO - ----------sxzs
+2020-09-10 13:42:19,314 - root - INFO - 执行步骤综合查询_机构奖励明细查询日
+2020-09-10 13:42:21,056 - root - INFO - 执行步骤综合查询_机构奖励明细查询日通过
+2020-09-10 13:42:21,057 - root - INFO - 用例刷新支付助手执行成功
+2020-09-10 13:42:21,113 - root - INFO - 共3条用例，1条需要被执行，成功执行1条
+2020-09-10 13:47:24,307 - root - INFO - 出现异常Traceback (most recent call last):
+  File "D:\python\Interface\TestScripts\WriteTestResult.py", line 22, in writeTestResult
+    style=colorDict[testResult])
+  File "D:\python\Interface\Common\ParseExcel.py", line 126, in writeCell
+    raise e
+  File "D:\python\Interface\Common\ParseExcel.py", line 120, in writeCell
+    sheet.cell(row = rowNo,column = colsNo).value = content
+  File "D:\Program Files\Python\Python37\lib\site-packages\openpyxl\worksheet\worksheet.py", line 238, in cell
+    raise ValueError("Row or column values must be at least 1")
+ValueError: Row or column values must be at least 1
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\python\Interface\TestScripts\TestSendMail.py", line 42, in TestSendMailAndCreateContacts
+    testResult="")
+  File "D:\python\Interface\TestScripts\WriteTestResult.py", line 42, in writeTestResult
+    log.error(u'写excel时发生异常' + traceback.print_exc())
+TypeError: can only concatenate str (not "NoneType") to str
+
+2020-09-10 13:49:02,347 - root - INFO - ----------sxzs
+2020-09-10 13:49:02,546 - root - INFO - 执行步骤综合查询_机构奖励明细查询日
+2020-09-10 13:49:02,931 - root - INFO - 执行步骤综合查询_机构奖励明细查询日通过
+2020-09-10 13:49:02,932 - root - INFO - 用例刷新支付助手执行成功
+2020-09-10 13:49:02,988 - root - INFO - 共3条用例，1条需要被执行，成功执行1条
