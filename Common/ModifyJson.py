@@ -20,8 +20,8 @@ def data_Json(Sendjson_txt):
 #遍历json文件所有的key对应的value,存储到一个字典中
 
 dic = {}
-def json_txt(dic_json):
 
+def json_txt(dic_json):
     if isinstance(dic_json,dict): #判断是否是字典类型isinstance 返回True,false
         for key in dic_json:
             if isinstance(dic_json[key],dict):#如果dic_json[key]依旧是字典类型

@@ -1,11 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3c8d4ba4-bff8-43b2-868c-806b83a361c1" name="Default Changelist" comment="">
+    <list default="true" id="3c8d4ba4-bff8-43b2-868c-806b83a361c1" name="Default Changelist" comment="补充清除功能">
+      <change afterPath="$PROJECT_DIR$/Common/HTMLTestRunner.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uenTest/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uenTest/test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Common/ModifyJson.py" beforeDir="false" afterPath="$PROJECT_DIR$/Common/ModifyJson.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Common/Oracle.py" beforeDir="false" afterPath="$PROJECT_DIR$/Common/Oracle.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Common/request.py" beforeDir="false" afterPath="$PROJECT_DIR$/Common/request.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Config/header.json" beforeDir="false" afterPath="$PROJECT_DIR$/Config/header.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Data/cas.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/Data/cas.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RunTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/RunTest.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestScripts/CreateContacts.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestScripts/CreateContacts.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestScripts/TestSendMail.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestScripts/TestSendMail.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestScripts/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestScripts/__init__.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,7 +32,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1eMO96xNNr74a5neMVZGO05dimS" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -32,6 +42,9 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\python\Interface\uenTest" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\python\Interface\TestScripts" />
     </key>
@@ -48,7 +61,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.RunTest">
+  <component name="RunManager" selected="Python tests.Unittests in test.py">
     <configuration name="HandleResult" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Interface" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -71,7 +84,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ModifyJson" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Oracle" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Interface" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -84,7 +97,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Common/ModifyJson.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Common/Oracle.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -93,79 +106,58 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="RunTest" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Unittests for test.Test1.test_doLogin" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Interface" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/uenTest" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/RunTest.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test.Test1.test_doLogin&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="login" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Unittests for test.Test1.test_queryPayeeBill" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Interface" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Common" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/uenTest" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Common/login.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test.Test1.test_queryPayeeBill&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="request" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Unittests in test.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Interface" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Common" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/uenTest" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Common/request.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/uenTest/test.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.RunTest" />
-        <item itemvalue="Python.login" />
+        <item itemvalue="Python tests.Unittests in test.py" />
+        <item itemvalue="Python tests.Unittests for test.Test1.test_queryPayeeBill" />
         <item itemvalue="Python.HandleResult" />
-        <item itemvalue="Python.ModifyJson" />
-        <item itemvalue="Python.request" />
+        <item itemvalue="Python tests.Unittests for test.Test1.test_doLogin" />
+        <item itemvalue="Python.Oracle" />
       </list>
     </recent_temporary>
   </component>
@@ -209,8 +201,30 @@
       <workItem from="1598861079241" duration="1670000" />
       <workItem from="1598922108328" duration="5916000" />
       <workItem from="1599529027706" duration="7000" />
-      <workItem from="1599716268400" duration="668000" />
+      <workItem from="1599716268400" duration="2745000" />
+      <workItem from="1599805589518" duration="2451000" />
+      <workItem from="1600759002447" duration="2121000" />
+      <workItem from="1600911801101" duration="8101000" />
+      <workItem from="1601173992020" duration="4510000" />
+      <workItem from="1605060358396" duration="110000" />
+      <workItem from="1605060490396" duration="219000" />
+      <workItem from="1605060859290" duration="283000" />
+      <workItem from="1606701048152" duration="239000" />
+      <workItem from="1606701330606" duration="50000" />
+      <workItem from="1606701414552" duration="56000" />
+      <workItem from="1606703423059" duration="12511000" />
+      <workItem from="1606785656874" duration="4570000" />
+      <workItem from="1606892521321" duration="14807000" />
+      <workItem from="1606962154451" duration="16677000" />
     </task>
+    <task id="LOCAL-00001" summary="补充清除功能">
+      <created>1599717005921</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1599717005921</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -229,6 +243,10 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="补充清除功能" />
+    <option name="LAST_COMMIT_MESSAGE" value="补充清除功能" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <default-breakpoints>
@@ -242,13 +260,21 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Interface$Log.coverage" NAME="Log Coverage Results" MODIFIED="1594128746850" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Common" />
-    <SUITE FILE_PATH="coverage/Interface$request.coverage" NAME="request Coverage Results" MODIFIED="1595815813842" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Common" />
-    <SUITE FILE_PATH="coverage/Interface$HandUuid.coverage" NAME="HandUuid Coverage Results" MODIFIED="1595577383777" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Common" />
+    <SUITE FILE_PATH="coverage/Interface$Oracle.coverage" NAME="Oracle Coverage Results" MODIFIED="1606978584634" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Common" />
     <SUITE FILE_PATH="coverage/Interface$ModifyJson.coverage" NAME="ModifyJson Coverage Results" MODIFIED="1597629807823" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Common" />
-    <SUITE FILE_PATH="coverage/Interface$HandleResult.coverage" NAME="HandleResult Coverage Results" MODIFIED="1598841553782" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Common" />
-    <SUITE FILE_PATH="coverage/Interface$HandleJson.coverage" NAME="HandleJson Coverage Results" MODIFIED="1595579393844" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Common" />
     <SUITE FILE_PATH="coverage/Interface$ParseExcel.coverage" NAME="ParseExcel Coverage Results" MODIFIED="1594706875360" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Common" />
-    <SUITE FILE_PATH="coverage/Interface$RunTest.coverage" NAME="RunTest Coverage Results" MODIFIED="1599716940776" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Interface$Unittests_for_test_Test1_test_queryPayeeBill.coverage" NAME="Unittests for test.Test1.test_queryPayeeBill Coverage Results" MODIFIED="1606984151125" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/uenTest" />
+    <SUITE FILE_PATH="coverage/Interface$Unittests_for_test_Test1_test_one.coverage" NAME="Unittests for test.Test1.test_one Coverage Results" MODIFIED="1606706247356" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/uenTest" />
+    <SUITE FILE_PATH="coverage/Interface$RunTest.coverage" NAME="RunTest Coverage Results" MODIFIED="1606908581743" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Interface$login.coverage" NAME="login Coverage Results" MODIFIED="1598924711669" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Common" />
+    <SUITE FILE_PATH="coverage/Interface$Unittests_in_Test1_py.coverage" NAME="Unittests in Test1.py Coverage Results" MODIFIED="1606705937968" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Common" />
+    <SUITE FILE_PATH="coverage/Interface$request.coverage" NAME="request Coverage Results" MODIFIED="1606722074616" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Common" />
+    <SUITE FILE_PATH="coverage/Interface$HTMLTestRunner.coverage" NAME="HTMLTestRunner Coverage Results" MODIFIED="1600759503494" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Common" />
+    <SUITE FILE_PATH="coverage/Interface$HandUuid.coverage" NAME="HandUuid Coverage Results" MODIFIED="1595577383777" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Common" />
+    <SUITE FILE_PATH="coverage/Interface$runtest.coverage" NAME="runtest Coverage Results" MODIFIED="1606907822119" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/uenTest" />
+    <SUITE FILE_PATH="coverage/Interface$HandleResult.coverage" NAME="HandleResult Coverage Results" MODIFIED="1606981926501" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Common" />
+    <SUITE FILE_PATH="coverage/Interface$Unittests_in_test_py.coverage" NAME="Unittests in test.py Coverage Results" MODIFIED="1606990715989" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/uenTest" />
+    <SUITE FILE_PATH="coverage/Interface$HandleJson.coverage" NAME="HandleJson Coverage Results" MODIFIED="1595579393844" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Common" />
+    <SUITE FILE_PATH="coverage/Interface$Unittests_for_test_Test1_test_doLogin.coverage" NAME="Unittests for test.Test1.test_doLogin Coverage Results" MODIFIED="1606980980700" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/uenTest" />
   </component>
 </project>

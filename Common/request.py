@@ -12,7 +12,7 @@ class request:
         res = response.text
         return res
 
-    def run_main(self,method,url,data,header=None):
+    def run_main(self,method,url,data=None,header=None):
         # base_url =
         if 'http' not in url:
             url = 'http://'+url
@@ -24,10 +24,19 @@ class request:
 
 
 if __name__ == "__main__":
-    url = 'www.baidu.com'
-
-    request().run_main('get',url)
-
+    url = "http://test.uenpay.com/api/wfb/mobile/chat/doLogin"
+    data = {
+        "code": "200",
+        "password": "qqqq1111",
+        "username": "18616726547"
+    }
+    headrs ={"User-Agent": "JPjbp/2.6.1 (iPhone; iOS 10.2; Scale/3.00)",
+            "Accept-Language": "zh-Hans-CN;q=1",
+            "Accept-Encoding": "gzip, deflate",
+            "Content-Type": "application/json;charset=UTF-8"}
+    data1 = json.dumps(data)
+    re = request().run_main(method="post", url=url, data=data1, header=headrs)
+    print(json.loads(re.text))
 
 
 

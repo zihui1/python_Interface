@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 
-import cx_Oracle
+import cx_Oracle,json
 import pandas as pd
 
 
@@ -14,6 +14,8 @@ class ORACLE(object):
     def __GetConnect(self):
         if not self.db:
             raise (NameError, "没有设置数据库信息")
+        # self.dsn = cx_Oracle.makedsn(host=self.host, port=1521, sid=self.sid)
+        # self.conn = cx_Oracle.connect(user=self.user, password=self.pwd, dsn=self.dsn)
         self.conn = cx_Oracle.connect(self.user + '/' + self.pwd + '@' + self.host + '/' + self.db)
         cursor = self.conn.cursor()
         if not cursor:
@@ -23,13 +25,21 @@ class ORACLE(object):
 
     def ExecQuery(self, sql):
         cursor = self.__GetConnect()
+        list = []
         cursor.execute(sql)
-        # 调出数据
-        resList = cursor.fetchall()
-
+        result = cursor.fetchall()
+        col_name = cursor.description
+        for row in result:
+            dict = {}
+            for col in range(len(col_name)):
+                key = col_name[col][0]
+                value = row[col]
+                dict[key] = value
+            list.append(dict)
+        js = json.dumps(list, ensure_ascii=False, indent=2, separators=(',', ':'))
         # 查询完毕后必须关闭连接
         self.conn.close()
-        return resList
+        return js
 
     def ExecQueryToDataFrame(self, sql):
         cursor = self.__GetConnect()
@@ -57,4 +67,8 @@ class ORACLE(object):
         self.conn.close()
 
 if __name__  == "__main__":
-    ORACLE("192.168.1.234","uenshks","qwer1234","uenshks")
+    sql = "select * from IM_USER where user_id = 305"
+    re = ORACLE(user = "wfb",pwd = "qwer1234",host='192.168.31.234',db = 'uenpay')
+    rr = re.ExecQuery(sql)
+
+    print(rr)

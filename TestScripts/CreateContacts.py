@@ -42,6 +42,7 @@ def dataDriverFun(stepSheetObj,loginname):
                     try:
                         respone = request().run_main(method, url, json.dumps(getdata), headrs)
                         if theway == "json":
+
                             result = handle_result_json(respone.json(),eval(eresult))
                             if result:
                                 successDatas += 1
